@@ -1,0 +1,39 @@
+{
+  "prettier.enable": false,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true
+  },
+  "npm.packageManager": "pnpm",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "vue.complete.casing.tags": "pascal",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true, // Enable stylelint
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "vue"
+  ] // Add vue files
+}
